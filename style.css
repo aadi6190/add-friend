@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.user-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.user-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.user-card p {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.friend-btn {
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.friend-btn.cancel {
+    background-color: #f02849;
+}
+
+.friend-btn:focus {
+    outline: none;
+}
